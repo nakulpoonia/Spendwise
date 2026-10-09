@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Generated build files
+**/target/
+client/node_modules/
+client/.next/
+client/.env.local
+client/.env.*.local
